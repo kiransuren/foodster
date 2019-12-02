@@ -1,0 +1,7 @@
+#title-head{
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  bottom: 0;
+  width: 100%;
+}

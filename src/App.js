@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './App.css';
 import Navbar from './Navbar/Navbar';
 import SearchBox from './SearchBox/SearchBox';
 import SearchResultView from './SearchResultView/SearchResultView';
@@ -39,6 +40,9 @@ class App extends Component {
       <Navbar />
       <SearchBox onInputChange={this.onInputChange} onKeyPressed={this.onKeyPressed}/>
       <SearchResultView results={this.state.recipes} />
+      <div id="title-head">
+        <p>Foodster, Created by Kiran S.</p>
+      </div>
     </div>
   );}
 
