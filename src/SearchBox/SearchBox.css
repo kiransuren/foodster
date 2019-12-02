@@ -1,0 +1,15 @@
+.search{
+  display: flex;
+  justify-content: center;
+  padding-top: 15%;
+}
+
+.sb{
+  background: none;
+  border: none;
+  outline: none;
+  width: 50%;
+  height: 40px;
+  font-size: 30px;
+  border-bottom: 3px solid grey;
+}
